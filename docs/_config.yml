@@ -1,18 +1,6 @@
 #theme: jekyll-theme-cayman
-title: Le sport en confinement au CE de Sauveterre
-description: Fiches hebdomadaires pour garder la forme
+#title: Le sport en confinement au CE de Sauveterre
+title: 
 
 show_downloads: false
 #google_analytics:
-
-atom:
-  buildCommand:
-    - jekyll
-    - build
-    - --option
-    - --this
-  buildEnv:
-    JEKYLL_ENV: development
-  postDirs:
-    - _posts
-  defaultPostDir: _drafts
