@@ -1,6 +1,6 @@
 # Le sport en confinement au
 
-![fiche](docs/logo2_v2.jpg)
+![fiche](https://github.com/CE-Sauveterre/sport-confinement/blob/master/docs/logo2_v2.jpg?raw=true)
 
 ## Fiches hebdomadaires pour garder la forme
 
