@@ -1,0 +1,111 @@
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage[notitlepage,fancysections]{sauveterre}
+
+\usepackage{enumitem}
+
+\usepackage{indentfirst}
+\usepackage{lipsum}
+
+\usepackage{cases}
+\usepackage{multicol}
+
+%formatting titles
+\usepackage{titlesec}
+\titleformat*{\section}{\centering\Large\bfseries}
+\titleformat*{\subsection}{\large\bfseries}
+
+%formatting date
+\usepackage[ddmmyyyy]{datetime}
+\renewcommand{\dateseparator}{/}
+
+%\usepackage{geometry}
+%\geometry{
+% a4paper,
+% total={170mm,257mm},
+% left=20mm,
+% top=20mm,
+% }
+
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+
+\usepackage[export]{adjustbox}
+
+\renewcommand{\notitlepageupperline}{
+	\noindent%
+	\begin{minipage}{\textwidth}
+		\centering
+		\begin{minipage}{0.33\textwidth}
+			\raisebox{-0.5\height}
+			{\color{bleu-sauveterre}%
+				\includegraphics[height=0.8\hauteurlogovert]
+				{\polylogovert}
+				}
+		\end{minipage}%
+		\begin{minipage}{0.33\textwidth}
+			\color{bleu-sauveterre}%
+			\centering\polydatesave
+			\polyauthorsave
+			\hspace{3em}
+		\end{minipage}%
+		\begin{minipage}{0.33\textwidth}
+			\color{bleu-sauveterre}%
+			\flushright\raisebox{-0.5\height}
+			{\includegraphics[height=0.8\hauteurlogovert]{stayhome}
+			}
+		\end{minipage}
+	\end{minipage}
+}
+
+%\usepackage{fancyhdr}
+%\usepackage{lastpage}
+%\pagestyle{fancy}
+%\fancyhf{}
+%%headers and footers
+%\lhead{Centre Équestre de Sauveterre}
+%\chead{Règlement intérieur}
+%\rhead{Version du \today}
+%\rfoot{Page \thepage \ sur \pageref{LastPage}}
+
+%\fancypagestyle{firstpage}{%
+%  \fancyhf{}
+%  \renewcommand\headrulewidth{0pt}
+%  \fancyfoot[R]{Page \thepage \ sur \pageref{LastPage}}
+%}
+%
+%\title{\vspace{-50pt}
+%\includegraphics[width=0.4\textwidth , left]{logo2-v2.eps}~
+%\\[8pt]
+%{\huge \textsc{Règlement intérieur}}
+%}
+
+%enumerate environment formatting
+\renewcommand{\labelenumi}{\textbf{\arabic{enumi}.}}
+\renewcommand{\labelenumii}{\textbf{\arabic{enumi}.\arabic{enumii}.}}
+\renewcommand{\labelenumiii}{\textbf{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}}
+
+%change sec and subsec numbering
+\renewcommand{\thesection}{Section \Roman{section}.}
+\renewcommand{\thesubsection}{Article \arabic{subsection} :}
+
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+
+
+\renewcommand*\contentsname{Plan}
+
+
+\usepackage{framed}
+
+%\setlength{\parindent}{0pt}%remove indentation
+
+\title{Sport en confinement}
+\author{}
+\date{}
