@@ -1,5 +1,3 @@
-<script></script>
-
 # Le sport en confinement au
 
 ![fiche](https://github.com/CE-Sauveterre/sport-confinement/blob/master/docs/logo2_v2.jpg?raw=true)
